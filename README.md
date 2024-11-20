@@ -19,4 +19,5 @@ Running ReconHPRAKI.m file: applying an inverse HP filter to the predicted data 
 
 Data used in this study was downloaded at the link below.
 https://fastmri.med.nyu.edu/
+
 An IDFT operation was performed on the downloaded multi-coil k-space datasets (320×640×16) to reconstruct MR images, which were resized to 320×320×16 after excluding air region. The dimensions of the reconstructed images were 320×320 per slice, all acquired with 16 coils. The DFT transform were applied on 320×320 images to obtain fully sampled k-space data, and various skip sizes N were used to obtain under-sampled k-space data with ACS lines fully sampled near k-space center.
